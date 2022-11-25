@@ -1,0 +1,2 @@
+importClass(android.content.pm.PackageManager)
+toastLog('是否有ADB权限' + (PackageManager.PERMISSION_GRANTED === context.getPackageManager().checkPermission('android.permission.WRITE_SECURE_SETTINGS', context.getPackageName())))

@@ -1,0 +1,1 @@
+toastLog(context.getPackageName());
